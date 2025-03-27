@@ -17,4 +17,7 @@ __pycache__/
 
 # Carpetas de compilación y distribución
 build/
-dist/ 
+dist/
+
+# Archivos de especificación de PyInstaller
+*.spec 
