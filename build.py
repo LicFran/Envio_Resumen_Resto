@@ -12,5 +12,4 @@ PyInstaller.__main__.run([
     '--add-data=config.py;.',
     '--icon=aula-origen2.ico',
     '--clean',
-    '--windowed',
 ]) 

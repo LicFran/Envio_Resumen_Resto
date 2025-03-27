@@ -82,13 +82,14 @@ def enviar_correo():
         
         print("\n" + "="*50)
         print("Correo enviado exitosamente!")
-        print(f"\n{VERDE}INFORMATICA ORIGEN")
+        print("\nINFORMATICA ORIGEN")
         print("LIC. FRANCO MONZON")
-        print(f"{AZUL}Contacto: 3795-166911")
-        print(f"{RESET}" + "="*50 + "\n")
+        print("Contacto: 3795-166911")
+        print("="*50 + "\n")
         
     except Exception as e:
         print(f"Error al enviar el correo: {str(e)}")
 
 if __name__ == "__main__":
-    enviar_correo() 
+    enviar_correo()
+    input("\nPresione Enter para cerrar...") 
